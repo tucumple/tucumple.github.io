@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 400%;
+}
+h2{
+    font-size: 194%;
+    color: #ffe0c7;
+}
+h3{
+    color: #ffe0c7;
+}
+
+.introduction{
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/tomhanksprofile.jpg);
+    color: white;
+    text-align: center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 25%;
+}
+
+.biography{
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/forestgump.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    padding: 1%;
+}
+
+.tableheader{
+    margin-top: 1%;
+}
+.table, th, td{
+    border-collapse: collapse;
+    min-width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    padding: 6px;
+    overflow-x: auto;
+}
+
+.table tbody tr:nth-child(odd){
+    background-color: rgb(159, 159, 159);
+}
+.table tbody tr:nth-child(1){
+    background-color: rgb(90, 90, 90);
+    font-size: 26px;
+}
+
+.trollseite{
+    background-image: url(../img/trollface.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+#trollbutton{
+  margin: 0;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #000;
+  font-size:300%;
+  border-color: black;
+  border-width:thick;
+  background-color: white;
+  font-weight: bolder;
+}
+
+.hanksbody{
+    background-image: url(../img/tomfingers.jpeg);
+    background-size: cover;
+}
+
+#hanksbutton{
+  font-size:300%;
+  color: #fff;
+  font-size:300%;
+  border-color: white;
+  border-width:thick;
+  background-color: transparent;
+  font-weight: bolder;
+}
+
+a:link {
+    color: #99ccb8;
+}
+a:visited {
+    color: #cbc7bd;
+}
+a:hover {
+    color: #ffbe89;
+}
+a:active {
+    color: #f96f00;
+}
+a:link, a:visited {
+    text-decoration: none; 
+}
+a:hover, a:active {
+    text-decoration: underline;
+}
