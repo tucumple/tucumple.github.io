@@ -1,4 +1,5 @@
 *{
+    overflow-x: hidden;
     margin: 0;
     font-family: sans-serif !important;
 }
@@ -21,7 +22,6 @@ h3{
 }
 
 .introduction{
-    min-width: 393px; /*min width to avoid right side white bars*/
     background-position: center;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/tomhanksprofile.jpg);
     color: white;
@@ -32,7 +32,6 @@ h3{
 }
 
 .biography{
-    min-width: 393px; /*min width to avoid right side white bars*/
     background-position: center;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/forestgump.jpg);
     background-size: cover;
@@ -44,7 +43,6 @@ h3{
 }
 
 .introduction_facts{
-    min-width: 393px; /*min width to avoid right side white bars*/
     background-position: center;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/ProHanks.jpg);
     color: white;
@@ -161,43 +159,9 @@ h3{
     position: fixed;
 }
 
-/*not needed
-#trollbutton{
-  margin: 0;
-  position: absolute;
-  top: 75%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  color: #000;
-  font-size:300%;
-  border-color: black;
-  border-width:thick;
-  background-color: white;
-  font-weight: bolder;
-}*/
-
-/*not needed 
-.hanksbody{
-    background-image: url(../img/laughing.jpg);
-    background-size: cover;
-    background-position-x: center;
-    background-repeat: no-repeat;
-}*/
-
-/*not needed anymore
-#hanksbutton{
-  font-size:300%;
-  color: #fff;
-  font-size:300%;
-  border-color: white;
-  border-width:thick;
-  background-color: transparent;
-  font-weight: bolder;
-}*/
-
-.funfacts{
-    background-color: blue;
+.fun_facts{
+    background-color: #111;
+    color: white;
     font-family: sans-serif;
 }
 
