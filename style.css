@@ -43,6 +43,7 @@ h3{
     vertical-align: middle;
     padding: 6px;
     overflow-x: auto;
+    color: white;
 }
 
 .table tbody tr:nth-child(odd){
