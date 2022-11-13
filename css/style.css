@@ -1,13 +1,12 @@
 *{
-    overflow-x: hidden;
     margin: 0;
-    font-family: sans-serif;
+    font-family: sans-serif !important;
 }
 h1{
-    font-size: 400%;
+    font-size: 400% !important;
 }
 h2{
-    font-size: 194%;
+    font-size: 194% !important;
     color: #ffe0c7;
 }
 h3{
@@ -37,14 +36,27 @@ h3{
 .tableheader{
     margin-top: 1%;
 }
-.table, th, td{
+
+@media only screen and (max-width: 3500px){
+    .table, th, td{
     border-collapse: collapse;
-    min-width: 70px;
+    max-width: 50%;
     margin-left: auto;
     margin-right: auto;
     vertical-align: middle;
-    padding: 6px;
+    padding: 4px;
     overflow-x: auto;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    color: white !important;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .table, th, td{
+        width: 100%;
+        color: red;
+    }
 }
 
 .table tbody tr:nth-child(odd){
