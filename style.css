@@ -44,7 +44,7 @@ h3{
     vertical-align: middle;
     padding: 3px;
     overflow-x: auto;
-    color: white;
+    color: white !important;
 }
 
 .table tbody tr:nth-child(odd){
