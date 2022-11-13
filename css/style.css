@@ -103,11 +103,11 @@ h3{
         margin-left: auto;
         margin-right: auto;
         vertical-align: middle;
-        padding: 4px;
+        padding: 1px;
         overflow-x: auto;
         text-overflow: ellipsis;
         word-wrap: break-word;
-        color: violet !important;
+        color: red !important;
     }
 }
 
