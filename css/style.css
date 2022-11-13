@@ -14,7 +14,7 @@ h3{
 }
 
 .introduction{
-    min-width: 393px;
+    min-width: 393px; /*min width to avoid right side white bars*/
     background-position: center;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/tomhanksprofile.jpg);
     color: white;
@@ -25,7 +25,7 @@ h3{
 }
 
 .biography{
-    min-width: 393px;
+    min-width: 393px; /*min width to avoid right side white bars*/
     background-position: center;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/forestgump.jpg);
     background-size: cover;
@@ -50,7 +50,7 @@ h3{
         overflow-x: auto;
         text-overflow: ellipsis;
         word-wrap: break-word;
-        color: brown !important;
+        color: white !important;
     }
 }
 
@@ -65,7 +65,7 @@ h3{
         overflow-x: auto;
         text-overflow: ellipsis;
         word-wrap: break-word;
-        color: brown !important;
+        color: white !important;
     }
 }
 
@@ -80,7 +80,7 @@ h3{
         overflow-x: auto;
         text-overflow: ellipsis;
         word-wrap: break-word;
-        color: brown !important;
+        color: white !important;
     }
 }
 
@@ -95,7 +95,7 @@ h3{
         overflow-x: auto;
         text-overflow: ellipsis;
         word-wrap: break-word;
-        color: blue !important;
+        color: white !important;
     }
 }
 
@@ -110,7 +110,7 @@ h3{
         overflow-x: auto;
         text-overflow: ellipsis;
         word-wrap: break-word;
-        color: violet !important;
+        color: white !important;
     }
 }
 
