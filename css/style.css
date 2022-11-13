@@ -39,7 +39,6 @@ h3{
 @media only screen and (max-width: 2160px){
     .table, th, td{
         border-collapse: collapse;
-        min-width: 25%;
         max-width: 40%;
         margin-left: auto;
         margin-right: auto;
@@ -54,29 +53,61 @@ h3{
 
 @media only screen and (max-width: 1440px){
     .table, th, td{
-        width: 50%;
+        border-collapse: collapse;
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+        padding: 4px;
+        overflow-x: auto;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
         color: green !important;
     }
 }
 
 @media only screen and (max-width: 1080px){
     .table, th, td{
-        width: 70%;
+        border-collapse: collapse;
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+        padding: 4px;
+        overflow-x: auto;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
         color: orange !important;
     }
 }
 
 @media only screen and (max-width: 720px){
     .table, th, td{
-        width: 90%;
+        border-collapse: collapse;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+        padding: 4px;
+        overflow-x: auto;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
         color: blue !important;
     }
 }
 
 @media only screen and (max-width: 360px){
     .table, th, td{
-        width: 100%;
-        color: red !important;
+        border-collapse: collapse;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+        padding: 4px;
+        overflow-x: auto;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        color: pink !important;
     }
 }
 
