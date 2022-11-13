@@ -65,7 +65,7 @@ h3{
         overflow-x: auto;
         text-overflow: ellipsis;
         word-wrap: break-word;
-        color: green !important;
+        color: brown !important;
     }
 }
 
@@ -80,7 +80,7 @@ h3{
         overflow-x: auto;
         text-overflow: ellipsis;
         word-wrap: break-word;
-        color: orange !important;
+        color: brown !important;
     }
 }
 
